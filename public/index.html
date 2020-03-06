@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <title>Socket.IO chat</title>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+  <section id='users'>users online: 0</section>
+  <input id="alias" autocomplete="off" placeholder="set alias" /><button id='set-alias'>set</button>
+  <ul id="messages"></ul>
+  <form action="">
+    <input id="msg" autocomplete="off" placeholder="What do you have to say?"/><button>Send</button>
+  </form>
+  <section id='chat'></section>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+  <script src="endpoints.js"></script>
+  <script src="index.js"></script>
+  
+</body>
+</html>
+</html>

@@ -1,0 +1,42 @@
+* {
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font: 13px Helvetica, Arial;
+      margin: 50px;
+    }
+
+    form {
+      padding: 5px;
+      position: fixed;
+      bottom: 0;
+      width: 75%;
+      margin-bottom: 25px;
+    }
+
+    form input {
+      border: 1px solid black;
+      width: 90%;
+      margin-right: .5%;
+    }
+
+    #alias, #msg {
+     
+      padding: 10px;
+      width: 90%;
+      margin-right: .5%;
+    }
+
+    form button, #set-alias {
+      width: 100px;
+      background:aquamarine;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    button:hover, #set-alias:hover {
+      background: coral
+    }
